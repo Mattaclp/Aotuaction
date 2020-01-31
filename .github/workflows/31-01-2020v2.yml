@@ -1,4 +1,4 @@
-name: lede_build31-01-2020
+name: lede_build31-01-2020v2
 on:
   # schedule:
   #   - cron: 0 20 * * *
