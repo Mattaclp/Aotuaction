@@ -81,7 +81,7 @@ jobs:
       if: failure()
       run: |
         cd openwrt
-        make -j1 V=s
+        make -j2 V=s
 
     - name: Upload bin directory
       uses: actions/upload-artifact@master
